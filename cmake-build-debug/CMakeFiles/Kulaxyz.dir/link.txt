@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Kulaxyz.dir/main.cpp.o CMakeFiles/Kulaxyz.dir/VesselSystem.cpp.o  -o Kulaxyz 

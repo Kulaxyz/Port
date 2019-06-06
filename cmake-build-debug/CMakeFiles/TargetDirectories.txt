@@ -1,0 +1,3 @@
+/home/kulaxyz/CLionProjects/Kulaxyz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kulaxyz/CLionProjects/Kulaxyz/cmake-build-debug/CMakeFiles/Kulaxyz.dir
+/home/kulaxyz/CLionProjects/Kulaxyz/cmake-build-debug/CMakeFiles/edit_cache.dir
