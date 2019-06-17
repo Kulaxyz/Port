@@ -13,7 +13,10 @@ public:
             Vessel::Vessel(enginePower, displacement, name, registryPort, crewMembers, "Passenger"),
             passengers(passengers), boats(boats), capacity(capacity)
     {
-        //exceptions
+        if(!this->isEnoughBoats())
+        {
+            this->increaseBoatsNumber();
+        }
     }
 
     PassengerVessel() : Vessel()

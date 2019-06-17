@@ -69,9 +69,9 @@ void VesselSystem::modificate()
     }
     std::cout << "Choose which vessel you`d like to modificate: " << std::endl;
     printDetails();
-    char c;
+    int c;
     std::cin >> c;
-    if (vessels[c-1] == nullptr)
+    if (c<1 || c > vessels.size())
     {
         throw std::invalid_argument("There is no such ship");
     }
